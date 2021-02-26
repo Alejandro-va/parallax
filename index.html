@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pag con Parallax</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,700&family=Open+Sans:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/estilos.css">
+</head>
+
+<body>
+  <div class="contenido-header">
+    <div class="fondo" id="fondo">
+      <h1 class="texto">Alexandra Hernández</h1>
+    </div>
+  </div>
+
+  <nav class="menu">
+    <a href="#">Nosotros</a>
+    <a href="#">Servicios</a>
+    <a href="#">Contacto</a>
+  </nav>
+
+  <main class="container">
+    <div class="row nosotros justify-content-center">
+      <div class="col-12 text-center">
+        <h2 class="subtitulo"><span>¿Quienes Somos?</span></h2>
+        <h3 class="titulo">Nuestra pasión por las piedras exóticas y la elegancia</h3>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat eum aliquid expedita? Recusandae,
+          praesentium. Officia placeat, quaerat ratione, fugit exercitationem sed dignissimos labore possimus veniam vel
+          ullam amet obcaecati mollitia?
+        </p>
+        <a href="#" class="enlace">Descubre tu proximo diseño</a>
+      </div>
+    </div>
+
+    <div class="row productos">
+      <article class="col-12 text-center">
+        <h2 class="subtitulo"><span>Lo que ofrecemos</span></h2>
+        <p class="titulo">Nuestros Productos</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis sequi alias delectus nostrum neque
+          perferendis aperiam dolore. Velit, explicabo sit. Iusto debitis natus dicta alias rem exercitationem cum quam
+          sequi!</p>
+
+      </article>
+
+      <div class="col-12">
+        <div class="row" justify-content-center>
+          <article class="col-6 col-lg-3 py-1">
+            <figure class="producto">
+              <img src="./img/products/piece-01.jpg" class="img-fluid" alt="">
+              <!-- fluid pàra q la imagen abarque todo el tamaño dospoble -->
+              <figcaption class="overlay">
+                <p class="overlay-texto">Descripción pequeña</p>
+              </figcaption>
+            </figure>
+          </article>
+
+          <article class="col-6 col-lg-3 py-1">
+            <figure class="producto">
+              <img src="./img/products/piece-02.jpg" class="img-fluid" alt="">
+              <figcaption class="overlay">
+                <p class="overlay-texto">Descripción pequeña</p>
+              </figcaption>
+            </figure>
+          </article>
+
+          <article class="col-6 col-lg-3 py-1">
+            <figure class="producto">
+              <img src="./img/products/piece-03.jpg" class="img-fluid" alt="">
+              <figcaption class="overlay">
+                <p class="overlay-texto">Descripción pequeña</p>
+              </figcaption>
+            </figure>
+          </article>
+
+          <article class="col-6 col-lg-3 py-1">
+            <figure class="producto">
+              <img src="./img/products/piece-04.jpg" class="img-fluid" alt="">
+              <figcaption class="overlay">
+                <p class="overlay-texto">Descripción pequeña</p>
+              </figcaption>
+            </figure>
+          </article>
+
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
