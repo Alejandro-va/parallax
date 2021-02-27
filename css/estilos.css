@@ -47,14 +47,14 @@ p {
   /*para q el texto n se mueva, le voy a decir q no sea el 100% del contenedor(.fondo) sino q sea el 100 de la pantalla; aplicandole las medidas "vw"*/
   /*  width: 100%; */
   /* width: 100vw; */ /*haciendo esto me salio un scroll, pq le dije q fuera mas ancho q su contendor, entnce le agrego la siguiente propiedad*/
-  width: calc(100vw - 20px);
+  width: calc(100vw - 1rem);
   height: 100vh;
   /*   background: rgba(0, 0, 0, 0.5); */ /*opaca todo el encabezado*/
-  font-size: 90px;
+  font-size: 4.5rem;
   font-weight: 400;
   font-family: "Noto Serif", serif;
   font-style: italic;
-
+  text-align: center;
   /*cetrare el texto*/
   display: flex;
   justify-content: center;
@@ -90,17 +90,17 @@ p {
 
 .menu a {
   display: inline-block; /*para q se mantega en linea pero tomer los estilos*/
-  padding: 10px 30px;
-  font-size: 26px;
+  padding: .5rem 1.5rem;
+  font-size: 1rem;
   background-color: var(--purple-medium);
-  margin: 0 10px;
+  margin: 0 .5rem;
   transition: 0.5s ease all;
   color: var(--gray-light);
   text-decoration: none;
 }
 
 .menu a:hover {
-  transform: translateY(18px);
+  transform: translateY(.9rem);
   background-color: var(--purple-light);
 }
 
@@ -306,12 +306,10 @@ p {
    p{
       font-size: 18px;
    }
-   .contenido-header .texto{
-      font-size: 60px;
-   }
-   .menu a{
+
+  /*  .menu a{
       font-size: 20px;
-   }
+   } */
    .nosotros .titulo,
    .productos .titulo{
       font-size: 30px;
@@ -319,9 +317,3 @@ p {
 
 }
 
-@media only screen and (max-width: 600px){
-   .contenido-header .texto{
-      font-size: 40px;
-
-   }
-}
