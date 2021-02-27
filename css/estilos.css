@@ -39,7 +39,7 @@ p {
   /*  width: 100%; */ /*la modificare cn js*/
   width: 0;
   height: 100%;
-  max-width: 100%;
+  max-width: 95%;
   background-image: url(../img/bg-top.png);
 }
 
@@ -47,7 +47,7 @@ p {
   /*para q el texto n se mueva, le voy a decir q no sea el 100% del contenedor(.fondo) sino q sea el 100 de la pantalla; aplicandole las medidas "vw"*/
   /*  width: 100%; */
   /* width: 100vw; */ /*haciendo esto me salio un scroll, pq le dije q fuera mas ancho q su contendor, entnce le agrego la siguiente propiedad*/
-  width: calc(99vw - 2rem);/*si le doy el 100 al vw hago scroll en pantall de cell*/
+  width: calc(98vw - 2rem);/*si le doy el 100 al vw hago scroll en pantall de cell*/
   height: 100vh;
   /*   background: rgba(0, 0, 0, 0.5); */ /*opaca todo el encabezado*/
   font-size: 4.5rem;
