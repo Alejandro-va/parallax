@@ -278,3 +278,43 @@ p {
 .contacto {
   margin-bottom: 60px;
 }
+
+/* _____________________________ */
+/* Footer*/
+/* ------------------------------ */
+.redes-sociales{
+   padding: 10px;
+  background-color: var(--purple-light);
+}
+
+.redes-sociales img{
+   padding: 5px;
+   border-radius: 100%;
+   width: 50px;
+   transition: .3s ease all;
+}
+
+.redes-sociales img:hover{
+   transform: scale(1.2);
+}
+
+/* _____________________________ */
+/* Mediaqueries*/
+/* ------------------------------ */
+
+@media screen and (max-width: 992px){
+   p{
+      font-size: 18px;
+   }
+   .contenido-header{
+      font-size: 60px;
+   }
+   .menu a{
+      font-size: 20px;
+   }
+   .nosotros .titulo,
+   .productos .titulo{
+      font-size: 30px;
+   }
+
+}
