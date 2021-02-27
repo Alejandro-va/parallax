@@ -306,7 +306,7 @@ p {
    p{
       font-size: 18px;
    }
-   .contenido-header{
+   .contenido-header .texto{
       font-size: 60px;
    }
    .menu a{
@@ -317,4 +317,11 @@ p {
       font-size: 30px;
    }
 
+}
+
+@media only screen and (max-width: 600px){
+   .contenido-header .texto{
+      font-size: 40px;
+
+   }
 }
