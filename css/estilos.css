@@ -312,6 +312,9 @@ p {
       font-size: 18px;
    }
 
+   .contenido-header .texto {
+font-size: 3rem;
+   }
    .nosotros .titulo,
    .productos .titulo{
       font-size: 30px;
