@@ -47,14 +47,19 @@ p {
   /*para q el texto n se mueva, le voy a decir q no sea el 100% del contenedor(.fondo) sino q sea el 100 de la pantalla; aplicandole las medidas "vw"*/
   /*  width: 100%; */
   /* width: 100vw; */ /*haciendo esto me salio un scroll, pq le dije q fuera mas ancho q su contendor, entnce le agrego la siguiente propiedad*/
-  width: calc(100vw - 1rem);
+  width: calc(99vw - 2rem);/*si le doy el 100 al vw hago scroll en pantall de cell*/
   height: 100vh;
   /*   background: rgba(0, 0, 0, 0.5); */ /*opaca todo el encabezado*/
   font-size: 4.5rem;
   font-weight: 400;
   font-family: "Noto Serif", serif;
   font-style: italic;
+
+  /*cuando este en pantallas de tlf tomara esto en cuanta*/
   text-align: center;
+
+
+
   /*cetrare el texto*/
   display: flex;
   justify-content: center;
@@ -84,8 +89,8 @@ p {
   /* align-items: center; */
   font-family: "Noto Serif", serif;
   font-style: italic;
-  padding: 5px;
-  margin-bottom: 60px;
+  padding: .7rem .1rem;
+  margin-bottom: 3rem
 }
 
 .menu a {
@@ -307,9 +312,6 @@ p {
       font-size: 18px;
    }
 
-  /*  .menu a{
-      font-size: 20px;
-   } */
    .nosotros .titulo,
    .productos .titulo{
       font-size: 30px;
