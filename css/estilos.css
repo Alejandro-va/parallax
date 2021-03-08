@@ -33,7 +33,7 @@ p {
   background-position: center; /*centra la img*/
   background-size: cover; /*acomodala en el contendeor*/
   background-attachment: fixed; /*ponla de fondo(parallax)*/
-  overflow-x: hidden;
+
 }
 
 /*Las maticas verdes*/
@@ -43,7 +43,7 @@ p {
   height: 100%;
   max-width: 95%;
   background-image: url(../img/bg-top.png);
-  overflow-x: hidden;
+
 }
 
 .contenido-header .texto {
@@ -69,7 +69,7 @@ p {
   align-items: center;
   color: purple;
   mix-blend-mode: multiply; /*le da intensidad y tr5ansparecia al color en relacion con su fondo*/
-  overflow-x: hidden;
+  
 }
 
 /* _____________________________ */
