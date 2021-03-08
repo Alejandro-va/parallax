@@ -33,6 +33,7 @@ p {
   background-position: center; /*centra la img*/
   background-size: cover; /*acomodala en el contendeor*/
   background-attachment: fixed; /*ponla de fondo(parallax)*/
+  overflow-x: hidden;
 }
 
 /*Las maticas verdes*/
@@ -42,13 +43,14 @@ p {
   height: 100%;
   max-width: 95%;
   background-image: url(../img/bg-top.png);
+  overflow-x: hidden;
 }
 
 .contenido-header .texto {
   /*para q el texto n se mueva, le voy a decir q no sea el 100% del contenedor(.fondo) sino q sea el 100 de la pantalla; aplicandole las medidas "vw"*/
   /*  width: 100%; */
   /* width: 100vw; */ /*haciendo esto me salio un scroll, pq le dije q fuera mas ancho q su contendor, entnce le agrego la siguiente propiedad*/
-  width: calc(98vw - 2rem);/*si le doy el 100 al vw hago scroll en pantall de cell*/
+  width: calc(100vw - 1.5rem);/*si le doy el 100 al vw hago scroll en pantall de cell*/
   height: 100vh;
   /*   background: rgba(0, 0, 0, 0.5); */ /*opaca todo el encabezado*/
   font-size: 4.5rem;
@@ -67,6 +69,7 @@ p {
   align-items: center;
   color: purple;
   mix-blend-mode: multiply; /*le da intensidad y tr5ansparecia al color en relacion con su fondo*/
+  overflow-x: hidden;
 }
 
 /* _____________________________ */
@@ -91,7 +94,8 @@ p {
   font-family: "Noto Serif", serif;
   font-style: italic;
   padding: .7rem .1rem;
-  margin-bottom: 3rem
+  margin-bottom: 3rem;
+  overflow-x: hidden;
 }
 
 .menu a {
@@ -103,11 +107,13 @@ p {
   transition: 0.5s ease all;
   color: var(--gray-light);
   text-decoration: none;
+  overflow-x: hidden;
 }
 
 .menu a:hover {
   transform: translateY(.9rem);
   background-color: var(--purple-light);
+  overflow-x: hidden;
 }
 
 /* _____________________________ */
@@ -215,7 +221,7 @@ p {
   position: absolute;
   white-space: nowrap;
   color: var(--white);
-  font-size: 18px;
+  font-size: .8rem;
   transform: translate(-50%, -50%);
   overflow: hidden;
   border-top: 1px solid #fff;
