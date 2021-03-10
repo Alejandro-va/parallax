@@ -99,15 +99,19 @@ p {
 }
 
 .menu a {
-  display: inline-block; /*para q se mantega en linea pero tomer los estilos*/
-  padding: .5rem 1.5rem;
-  font-size: 1.3rem;
+  display: felx; /*para q se mantega en linea pero tomer los estilos*/
+/*   padding: .5rem 1rem; */
+justify-content: space-between;
+padding: .5rem .5rem .5rem .5rem;
+  font-size: 1.1rem;
   background-color: var(--purple-medium);
   margin: 0 .5rem;
   transition: 0.5s ease all;
   color: var(--gray-light);
   text-decoration: none;
   overflow-x: hidden;
+  text-align: center;
+  box-sizing: border-box;
 }
 
 .menu a:hover {
