@@ -95,13 +95,13 @@ p {
   font-style: italic;
   padding: .7rem .1rem;
   margin-bottom: 3rem;
-  overflow-x: hidden;
+
 }
 
 .menu a {
   display: inline-block; /*para q se mantega en linea pero tomer los estilos*/
   padding: .5rem 1.5rem;
-  font-size: 1rem;
+  font-size: 1.3rem;
   background-color: var(--purple-medium);
   margin: 0 .5rem;
   transition: 0.5s ease all;
