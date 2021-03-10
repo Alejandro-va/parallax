@@ -99,7 +99,7 @@ p {
 }
 
 .menu a {
-  display: felx; /*para q se mantega en linea pero tomer los estilos*/
+  display: flex; /*para q se mantega en linea pero tomer los estilos*/
 /*   padding: .5rem 1rem; */
 justify-content: space-between;
 padding: .5rem .5rem .5rem .5rem;
@@ -225,7 +225,7 @@ padding: .5rem .5rem .5rem .5rem;
   position: absolute;
   white-space: nowrap;
   color: var(--white);
-  font-size: .8rem;
+  font-size: .5em;
   transform: translate(-50%, -50%);
   overflow: hidden;
   border-top: 1px solid #fff;
